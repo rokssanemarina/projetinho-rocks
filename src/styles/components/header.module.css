@@ -1,5 +1,5 @@
 .headerContainer {
-    padding: 6rem;
+    padding: 5rem;
     background: #686AAC;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
   
   .headerTitle {
     color: #fff;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   
   .headerImage {

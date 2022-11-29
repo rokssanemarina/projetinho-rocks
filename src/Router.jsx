@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { Menu } from "./Components/Menu";
+import {Footer} from "./Components/Footer"
 
 import { Inicio } from './Pages/Inicio'
 import { Sobre } from './Pages/Sobre'
@@ -17,6 +18,7 @@ export function ApplicationRoutes() {
         <Route path="/portfolio" element={<Portfolio/>} />
         <Route path="/contato" element={<Contato/>} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
